@@ -1,0 +1,78 @@
+.register {
+    background-color: #3f3f3f;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    max-width: 500px;
+    padding: 20px;
+    margin-top: 200px;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"],
+  form input[type="password"],
+  form input[type="email"] {
+    background-color: #2f2f2f;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  form input[type="submit"] {
+    background-color: #00aaff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px;
+    transition: background-color 0.2s ease-in-out;
+    width: 100%;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #0088cc;
+  }
+  
+  .register-link {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .register-link p {
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .register-link a {
+    color: #00aaff;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .register-link a:hover {
+    color: #0088cc;
+  }
+  
