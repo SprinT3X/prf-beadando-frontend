@@ -1,1 +1,10 @@
+<header *ngIf="isLoggedIn()">
+  <div class="logo">
+    <a routerLink="/">Guitar Store</a>
+  </div>
+  <div>
+    <button (click)="goToAdmin()">Admin</button>
+    <button (click)="logout()">Logout</button>
+  </div>
+</header>
 <router-outlet></router-outlet>

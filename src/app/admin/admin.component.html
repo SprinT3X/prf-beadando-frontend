@@ -1,0 +1,27 @@
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Username</th>
+        <th>Password</th>
+        <th>Email</th>
+        <th>Role</th>
+        <th>Created At</th>
+        <th>Updated At</th>
+        <th>Last Password Changed Date</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user.username }}</td>
+        <td>{{ user.password }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.role }}</td>
+        <td>{{ user.created_at }}</td>
+        <td>{{ user.updated_at }}</td>
+        <td>{{ user.last_password_changed_date }}</td>
+        <td><button (click)="deleteUser(user)">Delete</button></td>
+      </tr>
+    </tbody>
+  </table>
+  

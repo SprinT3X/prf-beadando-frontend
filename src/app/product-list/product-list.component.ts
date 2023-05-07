@@ -23,6 +23,11 @@ export class ProductListComponent implements OnInit {
     })
   }
 
+  goToGuitarDetails(guitar: any) {
+    localStorage.setItem('guitar', JSON.stringify(guitar))
+    this.router.navigate(['/guitar/'+ guitar.product_id])
+  }
+
   ngOnInit() {
     this.getGuitars()
   }

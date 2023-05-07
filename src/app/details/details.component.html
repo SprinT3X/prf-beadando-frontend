@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="guitar-item">
+                <div class="guitar-image">
+                    <img src="{{ guitar.image_url }}" alt="Guitar Image">
+                </div>
+                <div class="guitar-details">
+                    <h3>{{ guitar.brand }} {{ guitar.model }}</h3>
+                    ID<p>{{ guitar.product_id }}</p>
+                    Brand<p>{{ guitar.brand }}</p>
+                    Model<p>{{ guitar.model }}</p>
+                    Color<p>{{ guitar.color }}</p>
+                    Type<p>{{ guitar.type }}</p>
+                    Price<p>${{ guitar.price }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
